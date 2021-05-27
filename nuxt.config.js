@@ -33,7 +33,7 @@ export default {
   css: ['~/assets/styles/font.css', '~/assets/styles/main.css'],
 
   sitemap: {
-    hostname: 'https://blog-page.netlify.app',
+    hostname: 'https://roarknesion-blog-page.netlify.app',
 
     routes: async () => {
       const { $content } = require('@nuxt/content')
