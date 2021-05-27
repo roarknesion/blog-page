@@ -1,0 +1,54 @@
+body {
+  @apply bg-orange-200 text-sm font-medium font-serif text-orange-900 cursor-default;
+}
+
+* {
+  scrollbar-color: rgb(253, 186, 116) transparent;
+}
+
+::-webkit-scrollbar {
+  @apply w-4 h-4;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-orange-300 bg-clip-content border-4 border-solid border-transparent rounded-lg;
+}
+
+::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+
+::selection {
+  @apply bg-orange-500 bg-opacity-20;
+}
+
+:focus-visible {
+  @apply ring-4 ring-orange-500 outline-none;
+}
+
+.nuxt-progress {
+  @apply bg-orange-300 bg-clip-content border-4 border-solid border-transparent rounded-lg h-4;
+  max-width: calc(100% - 16px);
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.3s;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}

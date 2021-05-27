@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roarknesion.github.io/blog-page/sitemap.xml
